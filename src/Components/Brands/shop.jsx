@@ -1,7 +1,19 @@
-import React from "react";
+import React, { useMemo } from "react";
 import { useSearchParams } from "react-router-dom";
 import Products from "../../products/product.json";
 import Layout from "../Layouts/Layout";
+
+// Fisher-Yates shuffle (unbiased, returns a new array)
+function shuffle(list) {
+  const arr = [...list];
+
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+
+  return arr;
+}
 
 function Shop() {
   const [searchParams] = useSearchParams();
@@ -9,13 +21,18 @@ function Shop() {
   // Get category from URL
   const category = searchParams.get("category");
 
-  // Filter products
-  const filteredProducts = category
-  ? Products.filter(
-      (product) =>
-        product.category?.toLowerCase() === category.toLowerCase()
-    )
-  : Products;
+  // Filter + shuffle. useMemo keeps the order stable across re-renders
+  // and only reshuffles when the category changes (or on page reload).
+  const filteredProducts = useMemo(() => {
+    const filtered = category
+      ? Products.filter(
+          (product) =>
+            product.category?.toLowerCase() === category.toLowerCase()
+        )
+      : Products;
+
+    return shuffle(filtered);
+  }, [category]);
 
   return (
     <div className="min-h-screen bg-black px-5 py-10 text-white sm:px-10 lg:px-[100px]">
@@ -44,17 +61,18 @@ function Shop() {
               img={item.image}
               name={item.name}
               price={item.price}
-              power='Power'
+              power="Power"
               powerNum={item.power}
+              speed="TOP SPEED"
+              speedNum={item.topspeed}
+              configures="Configure"
             />
           ))}
         </div>
       ) : (
         <div className="flex min-h-[300px] items-center justify-center">
           <div className="text-center">
-            <h2 className="text-xl text-gray-300">
-              No vehicles found
-            </h2>
+            <h2 className="text-xl text-gray-300">No vehicles found</h2>
 
             <p className="mt-2 text-sm text-gray-600">
               There are no vehicles in the "{category}" category.
@@ -67,4 +85,3 @@ function Shop() {
 }
 
 export default Shop;
-

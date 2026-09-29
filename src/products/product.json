@@ -98,7 +98,7 @@
     {
         "id": 13,
         "category": "Mercedes",
-        "image": "/assets/mercedes/Sedans.jfif",
+        "image": "/assets/mercedes/download (3).jfif",
         "name": "Mercedes-Benz S-Class",
         "price": "300,000",
         "power": "429 hp", "topspeed": "155 mph"
@@ -122,9 +122,135 @@
     {
         "id": 16,
         "category": "Mercedes",
-        "image": " /assets/mercedes/#mercedes.png",
+        "image": "/assets/mercedes/Michael Kübler.jfif",
         "name": "Mercedes-Benz S-Class",
         "price": "300,000",
         "power": "429 hp", "topspeed": "155 mph"
+    },
+    {
+        "id": 17,
+        "category": "Ferrari",
+        "image": "/assets/ferrari/2016 Ferrari.png",
+        "name": "Ferrari 488 GTB",
+        "price": "300,000",
+        "power": "661 hp", "topspeed": "205 mph"
+    },{
+        "id": 18,
+        "category": "Ferrari",
+        "image": "/assets/ferrari/2020 Ferrari F8 Tributo.jfif",
+        "name": "Ferrari 488 GTB",
+        "price": "300,000",
+        "power": "661 hp", "topspeed": "205 mph"
+    },
+    {
+        "id": 19,
+        "category": "Ferrari",
+        "image": "/assets/ferrari/351912467000052.jfif",
+        "name": "Ferrari 488 GTB",
+        "price": "300,000",
+        "power": "661 hp", "topspeed": "205 mph"
+    },
+    {
+        "id": 20,
+        "category": "Ferrari",
+        "image": "/assets/ferrari/𝖈🪐.jfif",
+        "name": "Ferrari 488 GTB",
+        "price": "300,000",
+        "power": "661 hp", "topspeed": "205 mph"
+    },
+    {
+        "id": 21,
+        "category": "Ferrari",
+        "image": "/assets/ferrari/Ferarri car.jfif",
+        "name": "Ferrari 488 GTB",
+        "price": "300,000",
+        "power": "661 hp", "topspeed": "205 mph"
+    },
+    {
+        "id": 22,
+        "category": "Ferrari",
+        "image": "/assets/ferrari/Ferrari 488 Pista.jfif",
+        "name": "Ferrari 488 GTB",
+        "price": "300,000",
+        "power": "661 hp", "topspeed": "205 mph"
+    },
+    {
+        "id": 23,
+        "category": "Ferrari",
+        "image": "/assets/ferrari/Ferrari f355.jfif",
+        "name": "Ferrari 488 GTB",
+        "price": "300,000",
+        "power": "661 hp", "topspeed": "205 mph"
+    },{
+        "id": 24,
+        "category": "Ferrari",
+        "image": "/assets/ferrari/Ferrari Laferrari Su.jfif",
+        "name": "Ferrari 488 GTB",
+        "price": "300,000",
+        "power": "661 hp", "topspeed": "205 mph"
+    },
+    {
+        "id": 25,
+        "category": "Ferrari",
+        "image": "/assets/ferrari/Ferrari Laferrari.jfif",
+        "name": "Ferrari 488 GTB",
+        "price": "300,000",
+        "power": "661 hp", "topspeed": "205 mph"
+    },
+    {
+        "id": 26,
+        "category": "Ferrari",
+        "image": "/assets/ferrari/Ferrari Portifino.jfif",
+        "name": "Ferrari 488 GTB",
+        "price": "300,000",
+        "power": "661 hp", "topspeed": "205 mph"
+    },
+    {
+        "id": 27,
+        "category": "Ferrari",
+        "image": "/assets/ferrari/Ferrari Red Car❤️.jfif",
+        "name": "Ferrari 488 GTB",
+        "price": "300,000",
+        "power": "661 hp", "topspeed": "205 mph"
+    },
+    {
+        "id": 28,
+        "category": "Ferrari",
+        "image": "/assets/ferrari/Ferrari Roma.jfif",
+        "name": "Ferrari 488 GTB",
+        "price": "300,000",
+        "power": "661 hp", "topspeed": "205 mph"
+    },
+    {
+        "id": 29,
+        "category": "Ferrari",
+        "image": "/assets/ferrari/Ferrari.jfif",
+        "name": "Ferrari 488 GTB",
+        "price": "300,000",
+        "power": "661 hp", "topspeed": "205 mph"
+    },
+    {
+        "id": 30,
+        "category": "Ferrari",
+        "image": "/assets/ferrari/LaFerrari.jfif",
+        "name": "Ferrari 488 GTB",
+        "price": "300,000",
+        "power": "661 hp", "topspeed": "205 mph"
+    },
+    {
+        "id": 31,
+        "category": "Ferrari",
+        "image": "/assets/ferrari/Official Ferrari website.jfif",
+        "name": "Ferrari 488 GTB",
+        "price": "300,000",
+        "power": "661 hp", "topspeed": "205 mph"
+    },
+    {
+        "id": 32,
+        "category": "Ferrari",
+        "image": "/assets/ferrari/Top Vehicles_ Photo.jfif",
+        "name": "Ferrari 488 GTB",
+        "price": "300,000",
+        "power": "661 hp", "topspeed": "205 mph"
     }
 ]

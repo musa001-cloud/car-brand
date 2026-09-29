@@ -34,10 +34,10 @@ const models = [
 
 function Lamborghini() {
   return (
-    <div className="bg-black px-[100px]">
+    <div className="bg-black md:px-[100px]">
       <div className="relative">
         <img
-          className="w-full h-[350px] border-2 border-yellow-600 rounded-lg object-cover"
+          className="md:w-full w-screen h-[350px] border-2 border-yellow-600 rounded-lg object-cover"
           src={image}
           alt="Lamborghini"
         />

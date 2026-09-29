@@ -34,10 +34,10 @@ const models = [
 
 function Mercedes() {
   return (
-    <div className="bg-black px-[100px]">
+    <div className="bg-black md:px-[100px]">
       <div className="relative">
         <img
-          className="w-full border-2 border-green-500  h-[350px] rounded-lg object-cover"
+          className="md:w-full w-screen border-2 border-green-500  h-[350px] rounded-lg object-cover"
           src={image}
           alt="Mercedes-AMG"
         />
