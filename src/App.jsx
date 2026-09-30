@@ -7,13 +7,14 @@ import Bugatti from "./Components/Brands/Bugatti";
 import Ferrari from "./Components/Brands/Ferrari";
 import Lamborghini from "./Components/Brands/Lamborghini";
 import Mercedes from "./Components/Brands/Mercedes";
-
+import Models from "./Components/Home/Models";
 function App() {
   return (
     <Routes>
 
       {/* HOME */}
         <Route path="shop" element={<Shop />} />
+        <Route path="models" element={<Models />} />
 
         
       <Route path="/" element={<Home />}>

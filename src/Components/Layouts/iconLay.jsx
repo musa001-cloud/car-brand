@@ -2,7 +2,7 @@ import React from 'react'
 
 function iconLay(props) {
   return (
-    <div className='bg-gray-900 p-6 rounded-md'>
+    <div className='bg-gray-900 p-6 md:border-none border border-gray-600 rounded-md'>
         <p className='bg-green-300 w-[40px] text-[20px]
         rounded-md text-green-600 p-2'>{props.icon}</p>
         <br />
