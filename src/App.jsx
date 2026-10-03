@@ -8,6 +8,10 @@ import Ferrari from "./Components/Brands/Ferrari";
 import Lamborghini from "./Components/Brands/Lamborghini";
 import Mercedes from "./Components/Brands/Mercedes";
 import Models from "./Components/Home/Models";
+import Performance from "./Components/Home/Performance";
+import Heritage from "./Components/Home/Heritage";
+import Experience from "./Components/Home/Experience";
+import Contact from "./Components/Home/Contact";
 function App() {
   return (
     <Routes>
@@ -15,7 +19,10 @@ function App() {
       {/* HOME */}
         <Route path="shop" element={<Shop />} />
         <Route path="models" element={<Models />} />
-
+        <Route path="performance" element={<Performance />} />
+        <Route path="heritage" element={<Heritage />} />
+        <Route path="experience" element={<Experience />} />
+        <Route path="contact" element={<Contact />} />
         
       <Route path="/" element={<Home />}>
         <Route index element={<Mercedes />} />
