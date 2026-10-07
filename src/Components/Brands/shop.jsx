@@ -4,16 +4,16 @@ import Products from "../../products/product.json";
 import Layout from "../Layouts/Layout";
 
 // Fisher-Yates shuffle (unbiased, returns a new array)
-function shuffle(list) {
-  const arr = [...list];
+// function shuffle(list) {
+//   const arr = [...list];
 
-  for (let i = arr.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [arr[i], arr[j]] = [arr[j], arr[i]];
-  }
+//   for (let i = arr.length - 1; i > 0; i--) {
+//     const j = Math.floor(Math.random() * (i + 1));
+//     [arr[i], arr[j]] = [arr[j], arr[i]];
+//   }
 
-  return arr;
-}
+//   return arr;
+// }
 
 function Shop() {
   const [searchParams] = useSearchParams();
@@ -31,7 +31,8 @@ function Shop() {
         )
       : Products;
 
-    return shuffle(filtered);
+    // return shuffle(filtered);
+    return filtered;
   }, [category]);
 
   return (
