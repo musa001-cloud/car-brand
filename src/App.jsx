@@ -12,6 +12,10 @@ import Performance from "./Components/Home/Performance";
 import Heritage from "./Components/Home/Heritage";
 import Experience from "./Components/Home/Experience";
 import Contact from "./Components/Home/Contact";
+import SearchResult from "./Components/Home/SearchResult";
+
+
+
 function App() {
   return (
     <Routes>
@@ -23,6 +27,7 @@ function App() {
         <Route path="heritage" element={<Heritage />} />
         <Route path="experience" element={<Experience />} />
         <Route path="contact" element={<Contact />} />
+        <Route path="search" element={<SearchResult />} />
         
       <Route path="/" element={<Home />}>
         <Route index element={<Mercedes />} />
