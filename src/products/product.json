@@ -252,5 +252,133 @@
         "name": " Ferrari Monza SP2",
         "price": "300,000",
         "power": "661 hp", "topspeed": "205 mph"
+    },
+    {
+        "id": 32,
+        "category": "Lamborghini",
+        "image": "/public/assets/Lambo/8eb25761a1d82c0658a47249967ce2c0.jpg",
+        "name": " Ferrari Monza SP2",
+        "price": "300,000",
+        "power": "661 hp", "topspeed": "205 mph"
+    },
+    {
+        "id": 32,
+        "category": "Lamborghini",
+        "image": "/public/assets/Lambo/09c52f4eeea70134aacade93ee0c929c.jpg",
+        "name": " Ferrari Monza SP2",
+        "price": "300,000",
+        "power": "661 hp", "topspeed": "205 mph"
+    },
+    {
+        "id": 32,
+        "category": "Lamborghini",
+        "image": "public/assets/Lambo/30e20038b4f6c063423f25a53dce0d1d.jpg",
+        "name": " Ferrari Monza SP2",
+        "price": "300,000",
+        "power": "661 hp", "topspeed": "205 mph"
+    },
+    {
+        "id": 32,
+        "category": "Lamborghini",
+        "image": "public/assets/Lambo/31c4996d2d6d897b83198ac9acea9913.jpg",
+        "name": " Ferrari Monza SP2",
+        "price": "300,000",
+        "power": "661 hp", "topspeed": "205 mph"
+    },
+    {
+        "id": 32,
+        "category": "Lamborghini",
+        "image": "public/assets/Lambo/37d9953c7d2c0b3af97906c237fac83e.jpg",
+        "name": " Ferrari Monza SP2",
+        "price": "300,000",
+        "power": "661 hp", "topspeed": "205 mph"
+    },
+    {
+        "id": 32,
+        "category": "Lamborghini",
+        "image": "public/assets/Lambo/78bc447c20a0b55e7658dc5629ef0490.jpg",
+        "name": " Ferrari Monza SP2",
+        "price": "300,000",
+        "power": "661 hp", "topspeed": "205 mph"
+    },
+    {
+        "id": 32,
+        "category": "Lamborghini",
+        "image": "public/assets/Lambo/5878cb395a091d9ebf9951a9c926c9f2.jpg",
+        "name": " Ferrari Monza SP2",
+        "price": "300,000",
+        "power": "661 hp", "topspeed": "205 mph"
+    },
+    {
+        "id": 32,
+        "category": "Lamborghini",
+        "image": "public/assets/Lambo/5174229e9266105f2d8a1fcb98ef2407.jpg",
+        "name": " Ferrari Monza SP2",
+        "price": "300,000",
+        "power": "661 hp", "topspeed": "205 mph"
+    },
+    {
+        "id": 32,
+        "category": "Lamborghini",
+        "image": "public/assets/Lambo/a6e05001d3d49c41bd5834208e1156f9.jpg",
+        "name": " Ferrari Monza SP2",
+        "price": "300,000",
+        "power": "661 hp", "topspeed": "205 mph"
+    },
+    {
+        "id": 32,
+        "category": "Lamborghini",
+        "image": "public/assets/Lambo/b1347145d1f8dab78a307100f49fd71f.jpg",
+        "name": " Ferrari Monza SP2",
+        "price": "300,000",
+        "power": "661 hp", "topspeed": "205 mph"
+    },
+    {
+        "id": 32,
+        "category": "Lamborghini",
+        "image": "public/assets/Lambo/d084b52ef5c2816c81458dec2beac298.jpg",
+        "name": " Ferrari Monza SP2",
+        "price": "300,000",
+        "power": "661 hp", "topspeed": "205 mph"
+    },
+    {
+        "id": 32,
+        "category": "Lamborghini",
+        "image": "public/assets/Lambo/dce9b15e37d7d65860b32b4d8560863d.jpg",
+        "name": " Ferrari Monza SP2",
+        "price": "300,000",
+        "power": "661 hp", "topspeed": "205 mph"
+    },
+    {
+        "id": 32,
+        "category": "Lamborghini",
+        "image": "public/assets/Lambo/ef2e836fb868e3b523536b5480a7cce7.jpg",
+        "name": " Ferrari Monza SP2",
+        "price": "300,000",
+        "power": "661 hp", "topspeed": "205 mph"
+    },
+    {
+        "id": 32,
+        "category": "Lamborghini",
+        "image": "public/assets/Lambo/f62a2b035654f54d2b8683b7c7e77a9d.jpg",
+        "name": " Ferrari Monza SP2",
+        "price": "300,000",
+        "power": "661 hp", "topspeed": "205 mph"
+    },
+    {
+        "id": 32,
+        "category": "Lamborghini",
+        "image": "public/assets/Lambo/fa6c56dfb0b1c557d15d36f698f424c0.jpg",
+        "name": " Ferrari Monza SP2",
+        "price": "300,000",
+        "power": "661 hp", "topspeed": "205 mph"
+    },
+    {
+        "id": 32,
+        "category": "Lamborghini",
+        "image": "public/assets/Lambo/fe77d8bdd3ee937327f7f4edd21f2ded.jpg",
+        "name": " Ferrari Monza SP2",
+        "price": "300,000",
+        "power": "661 hp", "topspeed": "205 mph"
     }
 ]

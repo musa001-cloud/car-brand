@@ -36,37 +36,40 @@ function SearchResult() {
 
           <div className="mx-auto grid w-full max-w-[1600px] grid-cols-1 gap-5 sm:grid-cols-2 sm:gap-6 lg:grid-cols-3 xl:grid-cols-4">
             {results.map((item) => (
-              <div
-                key={item.id}
-                className="group overflow-hidden rounded-2xl bg-white shadow-lg transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl"
-              >
-                <div className="aspect-[4/3] w-full overflow-hidden">
-                  <img
-                    src={item.image}
-                    alt={item.name}
-                    loading="lazy"
-                    className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  />
-                </div>
+              <div className="group flex flex-col bg-gray-900 border border-gray-700 
+    rounded-md overflow-hidden text-white hover:border-gray-500 transition-colors">
+      <div className="overflow-hidden">
+        <img
+          src={item.image}
+          alt={item.name}
+          className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+        />
+      </div>
 
-                <div className="p-4 sm:p-5">
-                  <h3 className="truncate text-base font-semibold text-gray-900 sm:text-lg">
-                    {item.name}
-                  </h3>
+      <div className="p-4 flex flex-col gap-3">
+        <h1 className="text-xl font-[Cormorant_Garamond] font-semibold">{item.name}</h1>
 
-                  <div className="mt-2 flex items-center justify-between gap-3">
-                    <p className="text-lg font-bold text-blue-600 sm:text-xl">
-                      ${item.price}
-                    </p>
+        <div className="grid grid-cols-2 gap-4">
+          <div>
+            <p className="text-xs text-gray-400">power</p>
+            <p className="text-base font-mono font-medium">{item.power}</p>
+          </div>
+          <div>
+            <p className="text-xs text-gray-400">speed</p>
+            <p className="text-base font-mono font-medium">{item.topspeed}</p>
+          </div>
+        </div>
 
-                    {item.category && (
-                      <span className="max-w-[50%] truncate text-xs text-gray-500 sm:text-sm">
-                        {item.category}
-                      </span>
-                    )}
-                  </div>
-                </div>
-              </div>
+        <hr className="border-gray-700" />
+
+        <div className="flex justify-between items-center">
+          <p className="font-semibold font-[Cormorant_Garamond] text-lg">${item.price}</p>
+          <p className="text-sm text-gray-300 underline cursor-pointer hover:text-white">
+            configures
+          </p>
+        </div>
+      </div>
+          </div>
             ))}
           </div>
         </section>

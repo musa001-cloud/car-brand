@@ -21,13 +21,6 @@ import {
   MdArrowOutward,
 } from "react-icons/md";
 
-// ==============================
-// SHARED RESPONSIVE TOKENS
-// (fluid values via clamp() so there are no hard jumps between breakpoints)
-// ==============================
-
-// Fluid side padding that also respects notches / rounded corners (iOS, foldables).
-// Needs <meta name="viewport" content="..., viewport-fit=cover"> in index.html.
 const gutter =
   "pl-[max(clamp(1.25rem,5vw,7rem),env(safe-area-inset-left))] pr-[max(clamp(1.25rem,5vw,7rem),env(safe-area-inset-right))]";
 
@@ -42,17 +35,11 @@ const eyebrow =
 const h2 =
   "mt-3 font-[sans_serif] text-[clamp(2.25rem,5.5vw,4rem)] font-light leading-[1.1] text-balance";
 
-// Visible keyboard focus everywhere
 const focusRing =
   "focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-green-500";
 
-// Respect reduced-motion
 const calm = "motion-reduce:transition-none motion-reduce:transform-none";
 
-// ==============================
-// MARQUES
-// (hover effects are gated to devices that can actually hover)
-// ==============================
 
 const marques = [
   {
@@ -85,10 +72,6 @@ const marques = [
   },
 ];
 
-// ==============================
-// APEX PROMISES
-// ==============================
-
 const promises = [
   {
     icon: MdSpeed,
@@ -113,10 +96,6 @@ const promises = [
   },
 ];
 
-// ==============================
-// FLEET
-// (corner rounding only applies once the grid is 2 columns)
-// ==============================
 
 const fleet = [
   {
@@ -158,10 +137,7 @@ function Home() {
     <main className="min-h-dvh overflow-x-clip bg-black text-white">
       <NavBar />
 
-      {/* ==============================
-          HERO
-      ============================== */}
-
+     
       <section
         className={`relative flex min-h-[max(28rem,min(100svh,58rem))] items-center justify-center overflow-hidden border-green-500 sm:border-l-4 ${gutter} py-16`}
       >
@@ -218,11 +194,7 @@ function Home() {
         </div>
       </section>
 
-      {/* ==============================
-          STATS
-          (gap-px on a coloured grid = dividers that stay correct at 2 or 4 columns)
-      ============================== */}
-
+     
       <section className="border-y border-gray-800 bg-gray-900">
         <div className="mx-auto grid max-w-7xl grid-cols-2 gap-px bg-gray-800 sm:grid-cols-4">
           {[
@@ -240,10 +212,6 @@ function Home() {
           ))}
         </div>
       </section>
-
-      {/* ==============================
-          COLLECTION
-      ============================== */}
 
       <section className={`bg-black ${gutter} ${sectionY}`}>
         <div className="mx-auto grid max-w-7xl gap-[clamp(2.5rem,6vw,3.5rem)] lg:grid-cols-[1.2fr_0.8fr] lg:items-center">
@@ -296,12 +264,12 @@ function Home() {
                     </h3>
                   </div>
 
-                  <div className="relative mt-5 flex items-end justify-between gap-2 sm:mt-6">
+                  <div className="relative mt-5 flex md:flex hidden+ items-end justify-between gap-2 sm:mt-6">
                     <div className="min-w-0">
                       <p className="truncate text-xs tracking-[0.2em] text-gray-400 transition-colors duration-300 group-hover:text-white">
                         {name}
                       </p>
-                      <div className="mt-3 h-px w-8 bg-gray-600 transition-all duration-500 group-hover:w-16 group-hover:bg-white" />
+                      <div className="mt-3 md:block hidden h-px w-8 bg-gray-600 transition-all duration-500 group-hover:w-16 group-hover:bg-white" />
                     </div>
 
                     {/* Always visible on touch devices (no hover there), revealed on hover elsewhere */}
