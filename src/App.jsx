@@ -13,7 +13,7 @@ import Heritage from "./Components/Home/Heritage";
 import Experience from "./Components/Home/Experience";
 import Contact from "./Components/Home/Contact";
 import SearchResult from "./Components/Home/SearchResult";
-
+import Configure from "./Components/Home/configure";
 
 
 function App() {
@@ -28,6 +28,7 @@ function App() {
         <Route path="experience" element={<Experience />} />
         <Route path="contact" element={<Contact />} />
         <Route path="search" element={<SearchResult />} />
+        <Route path="/configure/:id" element={<Configure />} />
         
       <Route path="/" element={<Home />}>
         <Route index element={<Mercedes />} />

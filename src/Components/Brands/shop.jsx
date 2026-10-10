@@ -1,3 +1,4 @@
+
 import React, { useMemo } from "react";
 import { useSearchParams } from "react-router-dom";
 import Products from "../../products/product.json";
@@ -27,7 +28,8 @@ function Shop() {
     const filtered = category
       ? Products.filter(
           (product) =>
-            product.category?.toLowerCase() === category.toLowerCase()
+            product.category?.trim().toLowerCase() ===
+            category.trim().toLowerCase()
         )
       : Products;
 
@@ -56,9 +58,10 @@ function Shop() {
       {/* Products */}
       {filteredProducts.length > 0 ? (
         <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-          {filteredProducts.map((item) => (
+          {filteredProducts.map((item, index) => (
             <Layout
-              key={item.id}
+              key={item.id ?? `${item.name}-${index}`}
+              id={item.id}
               img={item.image}
               name={item.name}
               price={item.price}
