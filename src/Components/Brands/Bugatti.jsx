@@ -110,7 +110,6 @@ function Bugatti() {
               configures={model.configures}
             />
 
-            {/* This button ensures the selected Bugatti is passed to Configure */}
             <button
               type="button"
               onClick={() => handleConfigure(model)}
