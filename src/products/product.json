@@ -430,5 +430,184 @@
     "price": "250,000",
     "power": "641 hp",
     "topspeed": "190 mph"
+  },
+  {
+    "id": 49,
+    "category": "Bugatti",
+    "image": "public/assets/Bugatti/01ff7e3c372e9267d38fe8b9856966ca.jpg",
+    "name": "Bugatti Chiron",
+    "price": "3,000,000",
+    "power": "1,500 hp",
+    "topspeed": "261 mph"
+  },
+  {
+    "id": 50,
+    "category": "Bugatti",
+    "image": "public/assets/Bugatti/5f7006990d2cb32cbdadf6c92b0091cc.jpg",
+    "name": "Bugatti Veyron",
+    "price": "1,700,000",
+    "power": "1,200 hp",
+    "topspeed": "253 mph"
+  },
+  {
+    "id": 51,
+    "category": "Bugatti",
+    "image": "public/assets/Bugatti/07e71244b28f4809bcf1cb5dd871023f.jpg",
+    "name": "Bugatti Divo",
+    "price": "5,800,000",
+    "power": "1,479 hp",
+    "topspeed": "236 mph"
+  },
+  {
+    "id": 52,
+    "category": "Bugatti",
+    "image": "public/assets/Bugatti/13c6df93d02c6345e21fc4d8fb2a3802.jpg",
+    "name": "Bugatti Centodieci",
+    "price": "9,000,000",
+    "power": "1,600 hp",
+    "topspeed": "236 mph"
+  },
+  {
+    "id": 53,
+    "category": "Bugatti",
+    "image": "public/assets/Bugatti/24ec4b562ab0cfe310f22f74259f09c0.jpg",
+    "name": "Bugatti La Voiture Noire",
+    "price": "18,900,000",
+    "power": "1,479 hp",
+    "topspeed": "261 mph"
+  },
+  {
+    "id": 54,
+    "category": "Bugatti",
+    "image": "public/assets/Bugatti/54a0cd8edbbd50bf9e86b4c6ac29f18d.jpg",
+    "name": "Bugatti Bolide",
+    "price": "4,700,000",
+    "power": "1,850 hp",
+    "topspeed": "310 mph"
+  },
+  {
+    "id": 55,
+    "category": "Bugatti",
+    "image": "public/assets/Bugatti/68e0ceef800b1a5ff5f39f95e4a2669d.jpg",
+    "name": "Bugatti Chiron Super Sport 300+",
+    "price": "3,900,000",
+    "power": "1,600 hp",
+    "topspeed": "304 mph"
+  },
+  {
+    "id": 56,
+    "category": "Bugatti",
+    "image": "public/assets/Bugatti/914f65915c1b326fddec00427cbe8079.jpg",
+    "name": "Bugatti Divo",
+    "price": "5,800,000",
+    "power": "1,479 hp",
+    "topspeed": "236 mph"
+  },{
+    "id": 57,
+    "category": "Bugatti",
+    "image": "public/assets/Bugatti/958dad004f04e50be9b9a4206fa1e1d0.jpg",
+    "name": "Bugatti Centodieci",
+    "price": "9,000,000",
+    "power": "1,600 hp",
+    "topspeed": "236 mph"
+  },
+  {
+    "id": 58,
+    "category": "Bugatti",
+    "image": "public/assets/Bugatti/5171bfa8b191e1d94cf0c4d579db4cba.jpg",
+    "name": "Bugatti La Voiture Noire",
+    "price": "18,900,000",
+    "power": "1,479 hp",
+    "topspeed": "261 mph"
+  },
+  {
+    "id": 59,
+    "category": "Bugatti",
+    "image": "public/assets/Bugatti/7722e3afee39166fc5b37dba692390e7.jpg",
+    "name": "Bugatti Bolide",
+    "price": "4,700,000",
+    "power": "1,850 hp",
+    "topspeed": "310 mph"
+  },
+  {
+    "id": 60,
+    "category": "Bugatti",
+    "image": "public/assets/Bugatti/28828777fd207bfc3f872300415c08a2.jpg",
+    "name": "Bugatti Chiron Super Sport 300+",
+    "price": "3,900,000",
+    "power": "1,600 hp",
+    "topspeed": "304 mph"
+  },
+  {
+    "id": 61,
+    "category": "Bugatti",
+    "image": "public/assets/Bugatti/ab3ad1fc57a0392e0de3452327790043.jpg",
+    "name": "Bugatti Divo",
+    "price": "5,800,000",
+    "power": "1,479 hp",
+    "topspeed": "236 mph"
+  },
+  {
+    "id": 62,
+    "category": "Bugatti",
+    "image": "public/assets/Bugatti/abb1cdd03617656ee2272f11de6cd8fc.jpg",
+    "name": "Bugatti Centodieci",
+    "price": "9,000,000",
+    "power": "1,600 hp",
+    "topspeed": "236 mph"
+  },
+  {
+    "id": 63,
+    "category": "Bugatti",
+    "image": "public/assets/Bugatti/ad49040f0a7e97945ce2432a6c7bf97f.jpg",
+    "name": "Bugatti La Voiture Noire",
+    "price": "18,900,000",
+    "power": "1,479 hp",
+    "topspeed": "261 mph"
+  },
+  {
+    "id": 64,
+    "category": "Bugatti",
+    "image": "public/assets/Bugatti/4d5e6f7g8h9i0j1a2b3c.jpg",
+    "name": "Bugatti Bolide",
+    "price": "4,700,000",
+    "power": "1,850 hp",
+    "topspeed": "310 mph"
+  },
+  {
+    "id": 65,
+    "category": "Bugatti",
+    "image": "public/assets/Bugatti/5e6f7g8h9i0j1a2b3c4d.jpg",
+    "name": "Bugatti Chiron Super Sport 300+",
+    "price": "3,900,000",
+    "power": "1,600 hp",
+    "topspeed": "304 mph"
+  },
+  {
+    "id": 66,
+    "category": "Bugatti",
+    "image": "public/assets/Bugatti/6f7g8h9i0j1a2b3c4d5e.jpg",
+    "name": "Bugatti Divo",
+    "price": "5,800,000",
+    "power": "1,479 hp",
+    "topspeed": "236 mph"
+  },
+  {
+    "id": 67,
+    "category": "Bugatti",
+    "image": "public/assets/Bugatti/7g8h9i0j1a2b3c4d5e6f.jpg",
+    "name": "Bugatti Centodieci",
+    "price": "9,000,000",
+    "power": "1,600 hp",
+    "topspeed": "236 mph"
+  },
+  {
+    "id": 68,
+    "category": "Bugatti",
+    "image": "public/assets/Bugatti/8h9i0j1a2b3c4d5e6f7g.jpg",
+    "name": "Bugatti La Voiture Noire",
+    "price": "18,900,000",
+    "power": "1,479 hp",
+    "topspeed": "261 mph"
   }
 ]

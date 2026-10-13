@@ -12,6 +12,7 @@ function Layout(props) {
 
     navigate(`/configure/${props.id}`);
   };
+  console.log(handleConfigure)
 
   return (
     <div className="group flex flex-col bg-gray-900 border border-gray-700
