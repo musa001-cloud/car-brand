@@ -609,5 +609,109 @@
     "price": "18,900,000",
     "power": "1,479 hp",
     "topspeed": "261 mph"
+  },{
+    "id": "bugatti-chiron-super-sport",
+    "name": "Chiron Super Sport",
+    "image": "public/assets/benze/Bugatti Chiron Pur Sport.png",
+    "power": "1,578 hp",
+    "topSpeed": "273 mph",
+    "price": "3,800,000",
+    "configures": "Configure"
+  },
+  {
+    "id": "bugatti-bolide",
+    "name": "Bolide",
+    "image": "public/assets/benze/bugatti divo_.png",
+    "power": "1,578 hp",
+    "topSpeed": "236 mph",
+    "price": "4,200,000",
+    "configures": "Configure"
+  },
+  {
+    "id": "bugatti-mistral-roadster",
+    "name": "Mistral Roadster",
+    "image": "public/assets/benze/The Bugatti W16 Mistral.png",
+    "power": "1,578 hp",
+    "topSpeed": "261 mph",
+    "price": "5,000,000",
+    "configures": "Configure"
+  },{
+    "id": "mercedes-amg-gt-blue-series",
+    "name": "AMG GT Blue Series",
+    "image": "public/assets/benze/download.png",
+    "power": "469 hp",
+    "topSpeed": "202 mph",
+    "price": "135,000",
+    "configures": "Configure"
+  },
+  {
+    "id": "mercedes-sl63-amg",
+    "name": "SL63 AMG",
+    "image": "public/assets/benze/Mercedes-Benz SL63 .png",
+    "power": "577 hp",
+    "topSpeed": "196 mph",
+    "price": "178,000",
+    "configures": "Configure"
+  },
+  {
+    "id": "mercedes-amg-g63",
+    "name": "AMG G63",
+    "image": "public/assets/benze/Mercedes Benz AMG g63.png",
+    "power": "585 hp",
+    "topSpeed": "137 mph",
+    "price": "192,000",
+    "configures": "Configure"
+  },{
+    "id": "ferrari-296-gtb",
+    "name": "296 GTB",
+    "image": "public/assets/ferrari/Ferrari SF90 XX 🐎.jfif",
+    "power": "818 hp",
+    "topSpeed": "205 mph",
+    "price": "322,000",
+    "configures": "Configure"
+  },
+  {
+    "id": "ferrari-sf90-stradale",
+    "name": "SF90 Stradale",
+    "image": "public/assets/ferrari/Ferrari 812_.jfif",
+    "power": "986 hp",
+    "topSpeed": "211 mph",
+    "price": "625,000",
+    "configures": "Configure"
+  },
+  {
+    "id": "ferrari-purosangue",
+    "name": "Purosangue",
+    "image": "public/assets/ferrari/Ferrari Purosangue.jfif",
+    "power": "715 hp",
+    "topSpeed": "193 mph",
+    "price": "398,000",
+    "configures": "Configure"
+  },{
+    "id": "lamborghini-huracan-tecnica",
+    "name": "Huracan Tecnica",
+    "image": "public/assets/ferrari/download (2).jfif",
+    "power": "640 hp",
+    "topSpeed": "202 mph",
+    "price": "261,000",
+    "configures": "Configure"
+  },
+  {
+    "id": "lamborghini-urus-performante",
+    "name": "Urus Performante",
+    "image": "public/assets/ferrari/urus.jfif",
+    "power": "666 hp",
+    "topSpeed": "193 mph",
+    "price": "247,000",
+    "configures": "Configure"
+  },
+  {
+    "id": "lamborghini-reventon",
+    "name": "Reventón",
+    "image": "public/assets/ferrari/Reventón.png",
+    "power": "715 hp",
+    "topSpeed": "221 mph",
+    "price": "1,600,000",
+    "configures": "Configure"
   }
 ]

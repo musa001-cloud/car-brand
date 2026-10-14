@@ -39,6 +39,9 @@ function Models() {
  const handleCategory = (category) => {
     navigate(`/shop?category=${encodeURIComponent(category)}`);
   };
+  const handleConfigure = (category) => {
+  navigate(`/configure/${encodeURIComponent(category)}`);
+};
   const fleet = [
     {
       image: img1,

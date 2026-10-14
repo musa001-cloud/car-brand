@@ -1,121 +1,123 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import image from "../../assets/Image.png";
+
+import heroImage from "../../assets/Image.png";
 import Layout from "../Layouts/Layout";
-import mercedes from "../../assets/benze/download.png";
-import mercedes2 from "../../assets/benze/Mercedes Benz AMG g63.png";
-import mercedes3 from "../../assets/benze/Mercedes-Benz SL63 .png";
+
+import amgGT from "../../assets/benze/download.png";
+import sl63AMG from "../../assets/benze/Mercedes-Benz SL63 .png";
+import amgG63 from "../../assets/benze/Mercedes Benz AMG g63.png";
 
 const models = [
   {
     id: "mercedes-amg-gt-blue-series",
-    img: mercedes,
     name: "AMG GT Blue Series",
-    power: "Power",
-    powerNum: "469 hp",
-    speed: "TOP SPEED",
-    speedNum: "202 mph",
+    image: amgGT,
+    power: "469 hp",
+    topSpeed: "202 mph",
     price: "135,000",
     configures: "Configure",
   },
   {
     id: "mercedes-sl63-amg",
-    img: mercedes3,
     name: "SL63 AMG",
-    power: "Power",
-    powerNum: "577 hp",
-    speed: "TOP SPEED",
-    speedNum: "196 mph",
+    image: sl63AMG,
+    power: "577 hp",
+    topSpeed: "196 mph",
     price: "178,000",
     configures: "Configure",
   },
   {
     id: "mercedes-amg-g63",
-    img: mercedes2,
     name: "AMG G63",
-    power: "Power",
-    powerNum: "585 hp",
-    speed: "TOP SPEED",
-    speedNum: "137 mph",
+    image: amgG63,
+    power: "585 hp",
+    topSpeed: "137 mph",
     price: "192,000",
     configures: "Configure",
   },
 ];
 
-function MercedesAMG() {
+function Mercedes() {
   const navigate = useNavigate();
 
-  const handleConfigure = (model) => {
-    navigate(`/configure/${model.id}`);
+  const scrollToModels = () => {
+    document.getElementById("mercedes-models")?.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
   };
 
+  const handleConfigure = (id) => navigate(`/configure/${id}`);
+
   return (
-    <div className="min-h-screen bg-black text-white md:px-[100px]">
-      <div className="relative">
-        <img
-          className="h-[350px] w-full rounded-lg border-2 border-green-500 object-cover"
-          src={image}
-          alt="Mercedes-AMG"
-        />
+    <main className="min-h-screen overflow-hidden bg-[#080808] text-white">
+      <section className="mx-auto max-w-[1600px] px-4 pt-4 sm:px-6 lg:px-10">
+        <div className="group relative min-h-[430px] overflow-hidden rounded-2xl border border-white/10 sm:min-h-[520px] lg:min-h-[600px]">
+          <img
+            src={heroImage}
+            alt="Mercedes-AMG performance vehicles"
+            className="absolute inset-0 h-full w-full object-cover transition-transform duration-1000 group-hover:scale-[1.02]"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/35 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-black/10" />
 
-        <div className="absolute inset-0 rounded-lg bg-gradient-to-t from-black via-black/40 to-transparent" />
-
-        <div className="absolute bottom-0 left-0 right-0 grid grid-cols-1 items-end gap-4 px-6 pb-6 text-white sm:grid-cols-[1fr_auto] sm:px-10">
-          <div>
-            <p className="text-sm text-green-500">Affalterbach, Germany · Est. 1967</p>
-            <h1 className="mt-1 text-3xl font-semibold sm:text-4xl">
-              Mercedes-AMG
-            </h1>
-            <p className="mt-2 max-w-md text-sm text-gray-300">
-              Mercedes-AMG blends hand-built engineering, refined luxury, and motorsport-inspired performance into distinctive road cars.
-            </p>
-          </div>
-
-          <div className="flex sm:justify-end">
-            <button
-              type="button"
-              onClick={() =>
-                document
-                  .getElementById("mercedes-models")
-                  ?.scrollIntoView({ behavior: "smooth" })
-              }
-              className="rounded-md border border-white px-4 py-2 text-sm transition-colors hover:border-green-500 hover:bg-green-500"
-            >
-              3 Models ↓
-            </button>
+          <div className="relative flex min-h-[430px] flex-col justify-end p-6 sm:min-h-[520px] sm:p-10 lg:min-h-[600px] lg:p-16">
+            <div className="max-w-2xl">
+              <div className="mb-5 flex items-center gap-3">
+                <span className="h-px w-10 bg-emerald-500" />
+                <p className="text-xs font-medium uppercase tracking-[0.3em] text-emerald-400 sm:text-sm">
+                  Affalterbach, Germany · Est. 1967
+                </p>
+              </div>
+              <h1 className="text-5xl font-semibold tracking-tight sm:text-6xl lg:text-8xl">MERCEDES-AMG</h1>
+              <p className="mt-5 max-w-lg text-sm leading-7 text-gray-300 sm:text-base">
+                Hand-built performance meets refined German engineering. Explore
+                a collection where everyday luxury and motorsport spirit converge.
+              </p>
+              <button type="button" onClick={scrollToModels} className="mt-8 inline-flex items-center gap-4 border border-white/40 px-6 py-3.5 text-sm font-medium transition duration-300 hover:border-emerald-500 hover:bg-emerald-600">
+                Explore the collection <span aria-hidden="true">↘</span>
+              </button>
+            </div>
+            <div className="mt-10 flex items-center gap-3 text-xs uppercase tracking-[0.2em] text-gray-400 sm:absolute sm:bottom-10 sm:right-10 sm:mt-0">
+              <span className="h-2 w-2 rounded-full bg-emerald-500" />
+              Performance, precisely engineered
+            </div>
           </div>
         </div>
-      </div>
+      </section>
 
-      <div
-        id="mercedes-models"
-        className="grid grid-cols-1 gap-6 px-6 py-10 sm:grid-cols-2 sm:px-10 lg:grid-cols-3 lg:px-16"
-      >
-        {models.map((model) => (
-          <div key={model.id} className="flex flex-col">
-            <Layout
-              id={model.id}
-              img={model.img}
-              name={model.name}
-              power={model.power}
-              powerNum={model.powerNum}
-              speed={model.speed}
-              speedNum={model.speedNum}
-              price={model.price}
-              configures={model.configures}
-            />
-            <button
-              type="button"
-              onClick={() => handleConfigure(model)}
-              className="mt-3 w-full rounded-md bg-green-500 px-5 py-3 font-medium text-white transition hover:bg-green-400"
-            >
-              Configure {model.name} →
-            </button>
+      <section id="mercedes-models" className="mx-auto max-w-[1600px] scroll-mt-8 px-4 py-16 sm:px-6 sm:py-20 lg:px-10 lg:py-24">
+        <div className="mb-10 flex flex-col justify-between gap-5 border-b border-white/10 pb-8 sm:flex-row sm:items-end">
+          <div>
+            <p className="text-xs font-semibold uppercase tracking-[0.3em] text-emerald-400">The Mercedes-AMG Collection</p>
+            <h2 className="mt-3 text-3xl font-medium tracking-tight sm:text-4xl lg:text-5xl">Luxury with an edge.</h2>
           </div>
-        ))}
-      </div>
-    </div>
+          <p className="max-w-sm text-sm leading-6 text-gray-400">
+            Discover powerful performance, considered design, and premium craftsmanship.
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3 lg:gap-6">
+          {models.map((model, index) => (
+            <article key={model.id} className="group flex min-w-0 flex-col border border-white/10 bg-[#0d0d0d] transition duration-300 hover:border-white/25">
+              <div className="flex items-center justify-between border-b border-white/10 px-5 py-4">
+                <span className="text-xs uppercase tracking-[0.2em] text-gray-500">AMG Performance</span>
+                <span className="text-xs tabular-nums text-gray-500">0{index + 1} / 0{models.length}</span>
+              </div>
+              <div className="min-w-0">
+                <Layout id={model.id} img={model.image} name={model.name} power="Power" powerNum={model.power} speed="TOP SPEED" speedNum={model.topSpeed} price={model.price} configures={model.configures} onConfigure={() => handleConfigure(model.id)} />
+              </div>
+            </article>
+          ))}
+        </div>
+
+        <div className="mt-12 flex flex-col gap-3 border-t border-white/10 pt-6 text-xs leading-5 text-gray-500 sm:flex-row sm:items-center sm:justify-between">
+          <p>MERCEDES-AMG — Performance, precisely engineered.</p><p>Precision. Power. Prestige.</p>
+        </div>
+      </section>
+    </main>
   );
 }
 
-export default MercedesAMG;
+export default Mercedes;
