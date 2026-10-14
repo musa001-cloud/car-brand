@@ -10,7 +10,7 @@ import {
   MdArrowOutward,
 } from "react-icons/md";
 
-import img19 from "../../assets/KIA.jpg"
+import img19 from "../../assets/kia.jpg"
 import img1 from "../../assets/Image.png";
 import img2 from "../../assets/ChatGPT Image Aug 31, 2026, 01_00_08 PM.png";
 import img3 from "../../assets/ChatGPT.png";
@@ -25,12 +25,12 @@ import img11 from "../../assets/mclarene.jfif"
 import img12 from "../../assets/Porsche.jfif"
 import img13 from "../../assets/Genesis.jpg"
 import img14 from "../../assets/bentely.jpg"
-import img15 from "../../assets/Escalade.jpg"
-import img16 from "../../assets/Dodge.jpg"
+import img15 from "../../assets/escalade.jpg"
+import img16 from "../../assets/dodge.jpg"
 import img17 from "../../assets/honda.jpg"
 import img18 from "../../assets/hyundai.jpg"
-import img20 from "../../assets/Lexus.jpg"
-import img21 from "../../assets/Volkwagon.jpg"
+import img20 from "../../assets/lexus.jpg"
+import img21 from "../../assets/volkwagon.jpg"
 
 
 function Models() {
