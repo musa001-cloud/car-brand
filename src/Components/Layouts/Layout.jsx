@@ -60,7 +60,7 @@ function Layout(props) {
             className="text-sm text-gray-300 border border-gray-500 rounded-md px-4 py-2 cursor-pointer
             hover:border-blue-600 hover:bg-blue-600 transition-colors"
           >
-            {props.configures || "Configure"} →
+            {props.configures}
           </button>
         </div>
       </div>

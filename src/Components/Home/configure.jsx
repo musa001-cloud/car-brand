@@ -1,7 +1,7 @@
 import React, { useMemo, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import Cars from "../../products/product.json";
-import "./Configure.css";
+import "./configure.css";
 
 const paintOptions = [
   { name: "Obsidian Black", color: "#111318", price: 0 },

@@ -10,7 +10,7 @@ import {
   MdArrowOutward,
 } from "react-icons/md";
 
-
+import img19 from "../../assets/KIA.jpg"
 import img1 from "../../assets/Image.png";
 import img2 from "../../assets/ChatGPT Image Aug 31, 2026, 01_00_08 PM.png";
 import img3 from "../../assets/ChatGPT.png";
@@ -23,9 +23,14 @@ import img9 from "../../assets/Koenigsegg One_1.jfif"
 import img10 from "../../assets/Maserati.jfif"
 import img11 from "../../assets/mclarene.jfif"
 import img12 from "../../assets/Porsche.jfif"
-
-
-
+import img13 from "../../assets/Genesis.jpg"
+import img14 from "../../assets/bentely.jpg"
+import img15 from "../../assets/Escalade.jpg"
+import img16 from "../../assets/Dodge.jpg"
+import img17 from "../../assets/honda.jpg"
+import img18 from "../../assets/hyundai.jpg"
+import img20 from "../../assets/Lexus.jpg"
+import img21 from "../../assets/Volkwagon.jpg"
 
 
 function Models() {
@@ -107,6 +112,57 @@ function Models() {
       path: "Porsche",
       position: "sm:rounded-br-3xl",
     },
+    {
+      image: img13,
+      category: "Genesis",
+      path: "Genesis",
+      position: "sm:rounded-br-3xl",
+    },
+    {
+      image: img14,
+      category: "Bentley",
+      path: "Bentley",
+      position: "sm:rounded-br-3xl",
+    },
+    {
+      image: img15,
+      category: "Escalade",
+      path: "Escalade",
+      position: "sm:rounded-br-3xl",
+    },
+    {
+      image: img16,
+      category: "Dodge",
+      path: "Dodge",
+      position: "sm:rounded-br-3xl",
+    },
+    {
+      image: img17,
+      category: "Honda",
+      path: "Honda",
+      position: "sm:rounded-br-3xl",
+    },
+    {
+      image: img18,
+      category: "Hyundai",
+      path: "Hyundai",
+      position: "sm:rounded-br-3xl",
+    },{
+      image: img19,
+      category: "KIA",
+      path: "KIA",
+      position: "sm:rounded-br-3xl",
+    },{
+      image: img20,
+      category: "Lexus",
+      path: "Lexus",
+      position: "sm:rounded-br-3xl",
+    },{
+      image: img21,
+      category: "Volkswagen",
+      path: "Volkswagen",
+      position: "sm:rounded-br-3xl",
+    }
   ];
 
 const focusRing =
@@ -118,7 +174,7 @@ const focusRing =
   return (
     <div className='bg-black'>
         <NavBar />
-        <div className="mx-auto mt-10 grid max-w-6xl grid-cols-1 gap-3 sm:grid-cols-3 gap-y-6 lg:gap-6">
+        <div className="mx-auto mt-10 grid pb-8 max-w-6xl grid-cols-1 gap-3 sm:grid-cols-3 gap-y-6 lg:gap-6">
                     {fleet.map(({ image, category, path, position }) => (
                       <div
                         key={path}
