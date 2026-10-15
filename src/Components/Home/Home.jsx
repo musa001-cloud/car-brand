@@ -412,7 +412,12 @@ function Home() {
           </div>
         </div>
       </section>
-
+            <div className="text-white bg-gray-600 p-4    ">
+              <div className="text-center text-[14px]">
+                <p className=" text-green-400">TESTIMONIALS</p>
+                <h1 className="font-[san_serif] text-[50px]">Words from Our Clients</h1>
+              </div>
+            </div>
       <div className="h-1 bg-gradient-to-r from-transparent via-green-500 to-transparent pb-[env(safe-area-inset-bottom)]" />
     </main>
   );
